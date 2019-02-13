@@ -3,18 +3,31 @@ layout: default
 ---
 
 <div class="home">
-
-  <h1 class="page-heading">Posts</h1>
+  <div class="post-content">
+    <ul>
+      <li>形式：排位赛，组队参赛，每支队伍不超过 3 人</li>
+      <li>对象：以清华学生为主</li>
+      <li>评审方式：线上评审 + 答辩评审</li>
+      <li>奖项设置：
+        <ul>
+          <li>一等奖 1 名，奖金 5000 CNY</li>
+          <li>二等奖 2 名，奖金 2000 CNY</li>
+          <li>一等奖 3 名，奖金 1000 CNY</li>
+        </ul>
+      </li>
+      <li>赛事最终解释权归赛事组委会所有</li>
+    </ul>
+  </div>
 
   <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+    {% for post in site.posts reversed %}
+    <li>
+      <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
 
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
+      <h2>
+        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+      </h2>
+    </li>
     {% endfor %}
   </ul>
 
