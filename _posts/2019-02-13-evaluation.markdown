@@ -16,7 +16,7 @@ KL 散度和 JS 散度经常被用来定义两个分布之间的距离，其定�
 KL 散度：
 
 $$
-KL(p \| q) = \int_{\mathbb{R}^n} p(x) \log \frac{p(x)}{q(x)}dx
+KL(p \| q) = \int_{\mathbb{R}^n} p(x) \log \frac{p(x)}{q(x)} \mathrm{d}x
 $$
 
 KL 散度又称为相对熵(relative entropy)，与 fisher 信息矩阵有关，衡量的是用分布函数 $$q(x)$$ 来近似分布函数 $$p(x)$$，所损失的信息。
@@ -47,7 +47,7 @@ Wasserstein 距离相比 KL 散度和 JS 散度的优势在于，即使两个分
 
 Wasserstein 距离的直观解释：
 
-![1551756074337](C:\Users\zhuoj\AppData\Roaming\Typora\typora-user-images\1551756074337.png)
+![wdistance](wdistance.png)
 
 Wasserstein 距离实际上是最优传输问题(optimal transport)中的概念，指的是把概率分布 $$q$$ 转换为 $$p$$ 的最小传输质量(概率密度在离散情况下，叫做概率质量)，也叫做最优传输距离或者推土机距离。
 
