@@ -37,7 +37,9 @@ JS 散度是有界的(以 2 为底数的话值域为 $$[0,1]$$ )
 
 Wasserstein 距离(又叫 Earth-Mover 距离)是衡量两个分布之间距离的一个函数，数学定义如下：
 
+$$
 W_p(\mu,\nu):= \inf_{\gamma \in \Gamma(\mu, \nu)} \left(\int_{\mathbb\R^n \times \mathbb \R^n}d(x,y)^p\mathrm{d}\gamma(x,y)\right)^{1/p} = \left(\inf_{\xi }  \bold{E}[d(x,y)^p]\right)^{1/p}
+$$
 
 Wasserstein 距离相比 KL 散度和 JS 散度的优势在于，即使两个分布的支撑集没有重叠或者重叠非常少，仍然能反映两个分布的远近。而 JS 散度在此情况下是常量，KL 散度可能无意义。
 
