@@ -8,7 +8,7 @@ date:   2019-02-01 11:23:51 +0800
 
 选手提交HDF5格式的文件，在文件中写入一个与数据集中GroundTruth表结构相同的表，并命名为为Answer
 
-<div markdown="0">
+<div markdown="0" align="center">
 <table cellspacing="0" border="0">
    <colgroup width="180"></colgroup>
    <colgroup width="200"></colgroup>
