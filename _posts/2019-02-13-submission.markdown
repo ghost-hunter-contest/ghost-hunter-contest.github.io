@@ -1,14 +1,48 @@
 ---
 layout: post
 title:  "提交格式说明"
-date:   2019-02-01 11:23:45 +0800
+date:   2019-02-01 11:23:51 +0800
 ---
 
 ## 提交格式
 
 选手提交HDF5格式的文件，在文件中写入一个与数据集中GroundTruth表结构相同的表，并命名为为Answer
 
-<table cellspacing="0" border="0">	<colgroup width="180"></colgroup>	<colgroup width="200"></colgroup>	<colgroup width="180"></colgroup>	<tr>		<td style="border-bottom: 2px solid #000000" colspan=3 height="19" align="center" valign=middle><b><i><font color="#000000">Answer</font></i></b></td>		</tr>	<tr>		<td height="18" align="center" valign=middle><b><font color="#000000">EventID</font></b> (int64)</td>		<td align="center" valign=middle><b><font color="#000000">ChannelID</font></b> (int16)</td>		<td align="center" valign=middle><b><font color="#000000">PETime</font></b> (int16)</td>	</tr>	<tr>		<td height="18" align="center" valign=middle sdval="1" sdnum="1033;"><font color="#000000">1</font></td>		<td align="center" valign=middle sdval="0" sdnum="1033;"><font color="#000000">0</font></td>		<td align="center" valign=middle><font color="#000000">269</font></td>	</tr>	<tr>		<td height="18" align="center" valign=middle sdval="1" sdnum="1033;"><font color="#000000">1</font></td>		<td align="center" valign=middle sdval="1" sdnum="1033;"><font color="#000000">0</font></td>		<td align="center" valign=middle><font color="#000000">284</font></td>	</tr>	<tr>		<td height="18" align="center" valign=middle sdval="1" sdnum="1033;"><font color="#000000">1</font></td>		<td align="center" valign=middle sdval="2" sdnum="1033;"><font color="#000000">0</font></td>		<td align="center" valign=middle><font color="#000000">287</font></td>	</tr>	<tr>		<td height="18" align="center" valign=middle><font color="#000000">…</font></td>		<td align="center" valign=middle><font color="#000000">…</font></td>		<td align="center" valign=middle><font color="#000000">…</font></td>	</tr></table>
+<div markdown="0">
+<table cellspacing="0" border="0">
+   <colgroup width="180"></colgroup>
+   <colgroup width="200"></colgroup>
+   <colgroup width="180"></colgroup>
+   <tr>
+      <td style="border-bottom: 2px solid #000000" colspan="3" height="19" align="center" valign="middle"><b><i><font color="#000000">Answer</font></i></b></td>
+   </tr>
+   <tr>
+      <td height="18" align="center" valign="middle"><b><font color="#000000">EventID</font></b> (int64)</td>
+      <td align="center" valign="middle"><b><font color="#000000">ChannelID</font></b> (int16)</td>
+      <td align="center" valign="middle"><b><font color="#000000">PETime</font></b> (int16)</td>
+   </tr>
+   <tr>
+      <td height="18" align="center" valign="middle" sdval="1" sdnum="1033;"><font color="#000000">1</font></td>
+      <td align="center" valign="middle" sdval="0" sdnum="1033;"><font color="#000000">0</font></td>
+      <td align="center" valign="middle"><font color="#000000">269</font></td>
+   </tr>
+   <tr>
+      <td height="18" align="center" valign="middle" sdval="1" sdnum="1033;"><font color="#000000">1</font></td>
+      <td align="center" valign="middle" sdval="1" sdnum="1033;"><font color="#000000">0</font></td>
+      <td align="center" valign="middle"><font color="#000000">284</font></td>
+   </tr>
+   <tr>
+      <td height="18" align="center" valign="middle" sdval="1" sdnum="1033;"><font color="#000000">1</font></td>
+      <td align="center" valign="middle" sdval="2" sdnum="1033;"><font color="#000000">0</font></td>
+      <td align="center" valign="middle"><font color="#000000">287</font></td>
+   </tr>
+   <tr>
+      <td height="18" align="center" valign="middle"><font color="#000000">…</font></td>
+      <td align="center" valign="middle"><font color="#000000">…</font></td>
+      <td align="center" valign="middle"><font color="#000000">…</font></td>
+   </tr>
+</table>
+</div>
 
 ## 写入文件的示例
 
