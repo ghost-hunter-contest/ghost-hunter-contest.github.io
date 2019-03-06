@@ -20,7 +20,7 @@ mathjax: true
 使用[HDFView](https://www.hdfgroup.org/downloads/hdfview/)打开数据文件，可以查看文件的大致结构
 
 <div markdown="0" align="center">
-<img src="https://raw.githubusercontent.com/sacredfire666/JinpingDataCompetition/master/1tPrototype/doc/hdfview.png" width = "100%" alt="数据文件的结构"/><br/>
+<img src="{{site.baseurl}}/assets/hdfview.png" width = "100%" alt="数据文件的结构"/><br/>
 数据文件的结构
 </div>
 
@@ -65,12 +65,12 @@ h5file.close()
 这段程序将Waveform表中的第一个记录读取，并在GroundTruth表中取出对应的光电子到达时间，将其画出。得到的图像为
 
 <div markdown="0" align="center">
-<img src="https://raw.githubusercontent.com/sacredfire666/JinpingDataCompetition/master/1tPrototype/doc/Figure_1.png" width = "60%" alt="读出波形"/><br/>
+<img src="{{site.baseurl}}/assets/Figure_1.png" width = "60%" alt="读出波形"/><br/>
 波形和击中时间的示例图
 </div>
 
 <div markdown="0" align="center">
-<img src="https://raw.githubusercontent.com/sacredfire666/JinpingDataCompetition/master/1tPrototype/doc/Figure_2.png" width = "60%" alt="读出波形"/><br/>
+<img src="{{site.baseurl}}/assets/Figure_2.png" width = "60%" alt="读出波形"/><br/>
 波形局部放大
 </div>
 
