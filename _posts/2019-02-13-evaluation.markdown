@@ -47,7 +47,7 @@ Wasserstein 距离相比 KL 散度和 JS 散度的优势在于，即使两个分
 
 Wasserstein 距离的直观解释：
 
-![wdistance](wdistance.png)
+![wdistance]({{site.baseurl}}/assets/wdistance.png)
 
 Wasserstein 距离实际上是最优传输问题(optimal transport)中的概念，指的是把概率分布 $$q$$ 转换为 $$p$$ 的最小传输质量(概率密度在离散情况下，叫做概率质量)，也叫做最优传输距离或者推土机距离。
 
