@@ -17,3 +17,4 @@ url: "https://ghost-hunter-contest.github.io" # the base hostname & protocol for
 
 # Build settings
 markdown: kramdown
+highlighter: rouge
