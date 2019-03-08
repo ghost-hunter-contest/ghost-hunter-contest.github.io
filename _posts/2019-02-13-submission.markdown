@@ -94,7 +94,7 @@ g++ -std=c++11 -o submit -I/usr/local/hdf5/include/ Submit.cpp -lhdf5 -lhdf5_hl
 ```cpp
 #include "hdf5.h"
 #include "hdf5_hl.h"
-#include <stdlib.h>
+#include <cstdlib>
 #include <iostream>
 using namespace std;
 
@@ -104,12 +104,11 @@ constexpr size_t nRecord = 3;
 struct AnswerData
 {
     long long EventID;
-    short   ChannelID;
-    short   PETime;
+    short ChannelID;
+    short PETime;
 };
 
-int main( void )
-{
+int main() {
 
     AnswerData dst_buf;
 
