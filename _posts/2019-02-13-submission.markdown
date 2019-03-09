@@ -6,7 +6,7 @@ date:   2019-02-01 11:23:51 +0800
 
 ## 提交格式
 
-选手提交HDF5格式的文件，在文件中写入一个与数据集中GroundTruth表结构相似的表，只是加入Weight一列诗句，并命名为为Answer
+选手提交HDF5格式的文件，在文件中写入一个与数据集中GroundTruth表结构相似的表，只是加入Weight一列数据，并命名为为Answer
 
 <div markdown="0" align="center">
 <table cellspacing="0" border="0">
