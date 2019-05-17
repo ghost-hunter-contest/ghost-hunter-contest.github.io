@@ -49,6 +49,14 @@ date:   2019-02-01 11:23:51 +0800
 </table>
 </div>
 
+## 竞赛培训文件
+
+竞赛培训文件可在赛事平台的 "Knowledge Base" 处获得。
+
+主站：https://data-contest.net9.org/articles/8fda5c60-8c8a-48ea-9302-5c36ebcad589
+亚洲区：https://nu.airelinux.org/articles/8fda5c60-8c8a-48ea-9302-5c36ebcad589
+欧洲区：https://dc.airelinux.org/articles/8fda5c60-8c8a-48ea-9302-5c36ebcad589
+
 ## 写入文件的示例
 
 在下面的示例中，我们向文件中写入上表中的三条示例数据。
