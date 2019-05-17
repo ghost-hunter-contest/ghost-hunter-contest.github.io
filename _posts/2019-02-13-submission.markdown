@@ -51,7 +51,9 @@ date:   2019-02-01 11:23:51 +0800
 
 ## 竞赛培训文件
 
-竞赛培训文件可在赛事平台的 [Knowledge Base](https://data-contest.net9.org/articles/8fda5c60-8c8a-48ea-9302-5c36ebcad589) 处获得。
+竞赛培训文件，包括样例算法和样例程序可在赛事平台的
+[Knowledge Base](https://data-contest.net9.org/articles/8fda5c60-8c8a-48ea-9302-5c36ebcad589)
+处获得。
 
 也可以从
 [亚洲区](https://nu.airelinux.org/articles/8fda5c60-8c8a-48ea-9302-5c36ebcad589)
